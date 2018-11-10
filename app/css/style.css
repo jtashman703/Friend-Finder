@@ -1,0 +1,29 @@
+.question-wrapper {
+  margin-bottom: 30px;
+}
+
+.question-wrapper label {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.question-wrapper input {
+  margin-right: 5px;
+}
+
+.agree-disagree {
+  display: inline;
+}
+
+#match-img {
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#match-name {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+}

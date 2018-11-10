@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <h2>Survey Questions</h2>
+    <hr>
+
+    <h3>
+      <strong>About You</strong>
+    </h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+
+    <hr>
+
+    <div id="q1" class="question-wrapper">
+      <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q2" class="question-wrapper">
+      <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio2" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio2" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio2" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio2" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio2" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q3" class="question-wrapper">
+      <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio3" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio3" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio3" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio3" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio3" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q4" class="question-wrapper">
+      <h5>You rarely do something just out of sheer curiosity.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio4" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio4" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio4" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio4" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio4" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q5" class="question-wrapper">
+      <h5>People can rarely upset you.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio5" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio5" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio5" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio5" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio5" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q6" class="question-wrapper">
+      <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio6" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio6" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio6" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio6" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio6" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q7" class="question-wrapper">
+      <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio7" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio7" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio7" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio7" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio7" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q8" class="question-wrapper">
+      <h5>You rarely get carried away by fantasies and ideas.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio8" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio8" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio8" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio8" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio8" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q9" class="question-wrapper">
+      <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio9" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio9" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio9" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio9" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio9" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <div id="q10" class="question-wrapper">
+      <h5>You feel more energetic after spending time with a group of people.</h5>
+      <p class="agree-disagree">Strongly Disagree</p>
+      <label class="radio-inline">
+        <input type="radio" name="optradio10" value="1">1
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio10" value="2">2
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio10" value="3">3
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio10" value="4">4
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio10" value="5">5
+      </label>
+      <p class="agree-disagree">Strongly Agree</p>
+    </div>
+
+    <button type="submit" id="submit" class="btn btn-primary btn-lg btn-block no-modal" data-toggle="modal" data-target="#results-modal">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+      Submit</button>
+
+    <hr>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends List</a> |
+          <a href="https://github.com/Awfulnaut/friend-finder" target="_blank">GitHub Repo</a>
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="results-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="results-modal-title">Best Match</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="match-img" src="#" alt="match img">
+          <p id="match-name"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+
+    function indexOfSmallest(arr) {
+      var lowest = 0;
+      for (var i = 1; i < arr.length; i++) {
+        if (arr[i] < arr[lowest]) lowest = i;
+      }
+      return lowest;
+    }
+
+    function validated() {
+      var nameCheck = $('#name').val();
+      photoCheck = $('#photo').val();
+      var q1check = $('#q1 input:radio:checked').val();
+      var q2check = $('#q2 input:radio:checked').val();
+      var q3check = $('#q3 input:radio:checked').val();
+      var q4check = $('#q4 input:radio:checked').val();
+      var q5check = $('#q5 input:radio:checked').val();
+      var q6check = $('#q6 input:radio:checked').val();
+      var q7check = $('#q7 input:radio:checked').val();
+      var q8check = $('#q8 input:radio:checked').val();
+      var q9check = $('#q9 input:radio:checked').val();
+      var q10check = $('#q10 input:radio:checked').val();
+      if (
+        nameCheck && 
+        photoCheck && 
+        q1check && 
+        q2check && 
+        q3check && 
+        q4check && 
+        q5check && 
+        q6check && 
+        q7check && 
+        q8check && 
+        q9check && 
+        q10check) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    validated();
+    // validate form completion
+    $('#submit').on('click', function(event) {
+      event.preventDefault();
+      if (validated()) {
+        $('#submit').removeClass('no-modal');
+        var submittedScores = [];
+        submittedScores.push(parseInt($('#q1 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q2 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q3 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q4 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q5 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q6 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q7 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q8 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q9 input:radio:checked').val()));
+        submittedScores.push(parseInt($('#q10 input:radio:checked').val()));
+
+        var newFriend = {
+          name: $("#name").val().trim(),
+          photo: $("#photo").val().trim(),
+          scores: submittedScores
+        }
+        console.log(newFriend);
+
+        $.post("/api/friends", newFriend)
+          .then(function(data) {
+            console.log(data);
+            let differences = [];
+            let matchedFriend = data[0];
+            
+            // Loop through each existing friend (minus the newly added friend, so you don't match with yourself)
+            for (let i = 0; i < data.length - 1; i++) {
+
+              let totalDifference = 0;
+              console.log(data[i].name);
+              // loop through the scores array
+              for (let j = 0; j < data[i].scores.length; j++) {
+
+                // capture the difference of each data point
+                let comparedScore = newFriend.scores[j] - data[i].scores[j];
+                // Get absolute value
+                if (comparedScore < 0) {
+                  comparedScore *= -1;
+                }
+                // Increment the totalDifference for each compared data point
+                totalDifference += comparedScore
+                
+              }
+              console.log("Difference: " + totalDifference);
+              differences.push(totalDifference);
+
+              // Set the matchedFriend based on the index of the smallest difference found from each score comparison
+              matchedFriend = data[indexOfSmallest(differences)];            
+            }
+
+            // Display the appropriate data for the matched friend
+            $('#match-img').attr('src', matchedFriend.photo);
+            $('#match-name').text(matchedFriend.name);
+          });
+      } else {
+        // stop modal popup if form isn't validated
+        event.stopPropagation();
+        alert("You must fill out the entire form before submitting.")
+      }
+    })
+    $('button[data-dismiss]').on('click', function() {
+      location.reload();
+    })
+  </script>
+</body>
+
+</html>
